@@ -1,0 +1,190 @@
+.mapcontainer {
+  background-size: cover;
+  background-color: #4f4f4f;
+}
+.mapcontainer__name {
+  padding-top: 5%;
+}
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3em;
+  line-height: 56px;
+  text-align: center;
+  color: #f2f2f2;
+}
+.mapcontainer__map {
+  width: 75em;
+  height: 31em;
+  position: absolute;
+  left: 361px;
+  top: 216px;
+  background-image: url(/assets/Group.svg);
+}
+.loc1 {
+  position: absolute;
+  width: 7%;
+  height: 20%;
+  top: 15%;
+  left: 10%;
+}
+.loc1 .tooltip1 {
+  position: absolute;
+  left: -500%;
+  visibility: hidden;
+}
+.loc1:hover .tooltip1 {
+  visibility: visible;
+}
+.loc2 {
+  position: absolute;
+  width: 7%;
+  height: 20%;
+  top: 20%;
+  left: 20%;
+}
+.loc2 .tooltip2 {
+  position: absolute;
+  left: -200%;
+  visibility: hidden;
+}
+.loc2:hover .tooltip2 {
+  visibility: visible;
+}
+.loc3 {
+  position: absolute;
+  width: 7%;
+  height: 20%;
+  top: 35%;
+  left: 47%;
+}
+.loc3 .tooltip3 {
+  position: absolute;
+  visibility: hidden;
+}
+.loc3:hover .tooltip3 {
+  visibility: visible;
+}
+.loc4 {
+  position: absolute;
+  width: 7%;
+  height: 20%;
+  top: 15%;
+  left: 73%;
+}
+.loc4 .tooltip4 {
+  position: absolute;
+  visibility: hidden;
+}
+.loc4:hover .tooltip4 {
+  visibility: visible;
+}
+.button {
+  position: absolute;
+  left: 838px;
+  top: 749px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(#4bd8b5, #49d6df);
+  border: none;
+  border-radius: 3px;
+}
+.text-button {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.img-buttton {
+  width: 32px;
+  height: 32px;
+}
+@media (min-width: 1201px) {
+  .mapcontainer {
+    width: 1921px;
+    height: 904px;
+  }
+  .mapcontainer__map {
+    width: 1198px;
+    height: 498px;
+    left: 361px;
+    top: 216px;
+  }
+  .button {
+    left: 838px;
+    top: 749px;
+  }
+}
+@media (min-width: 641px) and (max-width: 1200px) {
+  .mapcontainer {
+    width: 1200px;
+    height: 842px;
+  }
+  .mapcontainer__map {
+    width: 900px;
+    height: 436px;
+    left: 149px;
+    top: 216px;
+  }
+  .button {
+    left: 477px;
+    top: 687px;
+  }
+}
+@media (min-width: 321px) and (max-width: 640px) {
+  .mapcontainer {
+    width: 640px;
+    height: 666px;
+  }
+  .mapcontainer__map {
+    width: 600px;
+    height: 290px;
+    left: 20px;
+    top: 206px;
+  }
+  .button {
+    left: 198px;
+    top: 531px;
+  }
+}
+@media (max-width: 320px) {
+  .mapcontainer {
+    width: 320px;
+    height: 413px;
+  }
+  .mapcontainer__map {
+    width: 300px;
+    height: 160px;
+    left: 10px;
+    top: 122px;
+  }
+  .button {
+    width: 7em;
+    height: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.6em;
+    padding-left: 1.8em;
+    left: 38px;
+    top: 298px;
+  }
+  .text-button {
+    font-size: 1em;
+    padding-left: 0.6em;
+  }
+  .img-buttton {
+    width: 2em;
+    height: 2em;
+  }
+}
